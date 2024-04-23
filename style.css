@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #282c34;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loadScreen {
+    text-align: center;
+}
+
+#progressBar {
+    width: 50%;
+    height: 30px;
+    background: #555;
+    margin: 20px auto;
+    position: relative;
+}
+
+#progress {
+    height: 100%;
+    background: #228B22; /* Verde da barra de progresso */
+    width: 0%;
+    position: absolute;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
